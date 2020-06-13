@@ -5,6 +5,7 @@
 ## Comandos no terminal
 
 Descrição | Comando
+------ | ------
 __Git__ | ------
 Iniciar git|`git init`
 Origin git|`git remote add origin https://github.com/ederpbj/Mongo-login-reg`
