@@ -16,3 +16,5 @@ Readme git|`git add readme.md`
 Ver commits realizados|`git shortlog`
 __Bibliotecas__ | ------
 pacote npm após package | `npm i`
+__Comando__ | ------
+Criar projeto ReactJS | `create-react-app client`
