@@ -1,4 +1,4 @@
-# Mongo-login-reg
+# Mongo-login-reg-client
 
 [Git do Client ReactJS](https://github.com/ederpbj/Mongo-login-reg/tree/master/client)
 [Git do Servidor com MongoDB](https://github.com/ederpbj/Mongo-login-reg)

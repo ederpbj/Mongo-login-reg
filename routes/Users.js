@@ -50,7 +50,7 @@ users.post('/login', (req, res) => {
   })
     .then(user => {
       if (user) {
-        // Compara senha
+        // Compara senha e faz login
         if (bcrypt.compareSync(req.body.password, user.password)) {
           const payload = {
             _id: user._id,
@@ -73,6 +73,7 @@ users.post('/login', (req, res) => {
   })
 })
 
+// Verifica se está autorizado
 users.get('/profile', (req, res) => {
   var decoded = jwt.verify(req.headers['authorization'], process.env.SECRET_KEY)
 
