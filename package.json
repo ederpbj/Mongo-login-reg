@@ -4,7 +4,7 @@
   "description": "Login com mongo e reactjs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "author": "Eder Pires",
   "license": "ISC",
@@ -15,7 +15,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.16.3",
     "jsonwebtoken": "^7.4.2",
-    "mongodb":"^3.1.6",
+    "mongodb": "^3.1.6",
     "mongoose": "^5.2.15"
   },
   "devDependencies": {
